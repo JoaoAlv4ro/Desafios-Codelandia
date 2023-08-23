@@ -24,6 +24,14 @@ header{
     height: 120px;
 }
 
+.header-discount,
+.header-brand {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .header-discount{
     background: var(--Black);
     color: var(--White);
@@ -42,6 +50,27 @@ header{
 /* Hero */
 .hero {
     width: 100%;
-    min-height: 200px;
-    background-image: url('../images/wallpaper.jpeg');
+    min-height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../image/wallpaper.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+}
+
+
+.text-hero {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--White);
+    margin-left: 100px;
+}
+
+.text-hero h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
 }
