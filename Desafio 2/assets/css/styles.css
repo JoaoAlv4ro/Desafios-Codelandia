@@ -39,3 +39,9 @@ header{
     font-weight: 600;
 }
 
+/* Hero */
+.hero {
+    width: 100%;
+    min-height: 200px;
+    background-image: linear-gradient();
+}
