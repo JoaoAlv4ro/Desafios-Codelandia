@@ -43,5 +43,5 @@ header{
 .hero {
     width: 100%;
     min-height: 200px;
-    background-image: linear-gradient();
+    background-image: url('../images/wallpaper.jpeg');
 }
