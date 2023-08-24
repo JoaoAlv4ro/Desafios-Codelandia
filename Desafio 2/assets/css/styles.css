@@ -105,5 +105,24 @@ header {
 }
 
 .main-cards {
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.cards {
+    background: var(--bgProduct);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.cards img {
+    width: 250px;
 }
