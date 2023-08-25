@@ -151,3 +151,31 @@ footer p {
     font-size: 18px;
     font-weight: 500;
 }
+
+/* Mobile Devices */
+@media (max-width: 420px) {
+    .text-hero {
+        margin-left: 10px;
+    }
+
+    .main-title h2 {
+        padding-bottom: 20px;
+    }
+
+    .main-title p {
+        line-height: 30px;
+    }
+
+    .main-container {
+        margin: auto;
+    }
+
+    .main-cards {
+        grid-template-columns: repeat(auto-fit, 280px);
+        justify-content: center;
+    }
+
+    .cards {
+        width: 280px;
+    }
+}
