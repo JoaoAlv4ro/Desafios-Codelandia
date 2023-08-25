@@ -20,6 +20,7 @@ body {
     background: var(--White)
 }
 
+/* Headers, desconto e de marca */
 header {
     width: 100%;
     height: 120px;
@@ -49,7 +50,7 @@ header {
     font-weight: 600;
 }
 
-/* Hero */
+/* Hero Image */
 .hero {
     width: 100%;
     min-height: 500px;
@@ -82,6 +83,7 @@ header {
     line-height: 35.31px;
 }
 
+/* Container dos produtos */
 .main-container {
     margin: 0 auto;
     max-width: 1240px;
@@ -104,6 +106,7 @@ header {
     line-height: 60px;
 }
 
+/* Cards */
 .main-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
@@ -126,6 +129,11 @@ header {
 
 .cards img {
     width: 250px;
+    transition: all .5s ease;
+}
+
+.cards:hover img {
+    transform: scale(1.1);
 }
 
 footer {
