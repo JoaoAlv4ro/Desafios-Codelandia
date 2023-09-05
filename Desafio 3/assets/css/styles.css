@@ -93,3 +93,52 @@ header {
 .header-image svg{
     width: 100%;
 }
+
+.main-container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.main-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 340px);
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.cards {
+    width: 340px;
+    height: 423px;
+    background: var(--white);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.cards-color {
+    height: 50%;
+}
+
+.red {
+    background: var(--red);
+}
+
+.blue {
+    background: var(--blue-light);
+}
+
+.pink {
+    background: var(--pink);
+}
+
+.green {
+    background: var(--green);
+}
+
+.yellow {
+    background: var(--yellow);
+}
+
+.purple {
+    background: var(--purple);
+}
