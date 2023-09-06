@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" href="assets/image/favicon.ico" type="image/x-icon">
-    
     <link defer rel="stylesheet" href="assets/js/svg-inject.min.js">
+    
+    <script defer src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="assets/js/jquery.js"></script>
+    <script defer src="assets/js/jquery.mask.js"></script>
+    <script defer src="assets/js/script.js"></script>
 
     <title>One Page</title>
 </head>
@@ -86,7 +90,7 @@
                     <form>
                         <input type="text" name="Nome" placeholder="Nome">
                         <input type="email" name="Email" placeholder="Email">
-                        <input type="text" name="Telefone" maxlength="16" placeholder="Telefone">
+                        <input type="text" class="telefone" name="Telefone" maxlength="15" placeholder="Telefone">
                         <textarea name="Mensagem" placeholder="Mensagem..."></textarea>
                         <button type="submit"> Enviar Mensagem </button>
                     </form>
