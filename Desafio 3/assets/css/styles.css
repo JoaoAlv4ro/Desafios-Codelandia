@@ -21,13 +21,30 @@
     box-sizing: border-box;
 }
 
+/* SCROLL */
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #13101b;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--purple);
+    border-radius: 6px;
+} 
+
 body {
     background-color: var(--white-200);
     height: 100%;
 }
 
 /* HEADER */
-
 header {
     background-color: var(--purple-light);
     height: 100%;
@@ -200,7 +217,7 @@ footer {
 .footer-form form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     font-family: 'Lato', sans-serif;
     width: 100%;
     padding-bottom: 70px;
@@ -253,4 +270,9 @@ form button {
     line-height: 24px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    transition: all 0.4s;
+}
+
+form button:hover {
+    opacity: 0.9;
 }
